@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "822781580370",
+    "firebase_url": "https://healthylifebot-e9404.firebaseio.com",
+    "project_id": "healthylifebot-e9404",
+    "storage_bucket": "healthylifebot-e9404.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822781580370:android:07770aec4aef03dd",
+        "android_client_info": {
+          "package_name": "com.datarheum.olusegun.healthylifebot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822781580370-3pvodf5aj00ku8e0ml9b5rn0b26mpsd7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.datarheum.olusegun.healthylifebot",
+            "certificate_hash": "591390c771ad93085ca9e18b959d4a0e19f15717"
+          }
+        },
+        {
+          "client_id": "822781580370-0ej42oacihh4epsqpvnd3o7brd1tjm7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxM5lnUXxc7eMM6_jIFafCL9mgnQSoonw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822781580370-0ej42oacihh4epsqpvnd3o7brd1tjm7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

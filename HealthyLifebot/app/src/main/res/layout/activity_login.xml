@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/registerbg">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="HealthyLife"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"/>
+
+
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColorHint="@color/colorWhite"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="@color/colorWhite"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Login"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/colorPrimary"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Join HealthyLife"
+        android:textStyle="bold"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="@color/colorWhite"
+        />
+
+    <TextView
+        android:onClick="sign"
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text=" | SignUp"
+        android:textStyle="bold"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="220dp"
+        android:textColor="@color/colorWhite"
+        />
+
+
+    <com.google.android.gms.common.SignInButton
+        android:onClick="googlesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_in_button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp">
+
+    </com.google.android.gms.common.SignInButton>
+
+
+</RelativeLayout>
